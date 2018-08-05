@@ -64,11 +64,38 @@
 
   @media screen {
 
+       /* 2 */
+
+    .thumbnail {
+      border-radius: 50%;
+
+       }
+
+    .tm-section-title-box:hover  {
+      background:#03A9F4;
+      color:#fff;
+      font-weight:bold;
+      font-size:3em;
+
+       }
+
+       /* 3 */
+
+    p:not(.text-xs-center):first-letter {
+      color: #76cdd7;
+      font-size: 30px;
+
+       }
+
+       /* 4 */
+
     .tm-content-box {
       position: relative;
       box-shadow: 0px 2px 13px 11px rgba(0,0,0,0.33);
 
     }
+
+      /* 5 */
 
     .tm-content-box:not(:empty)::before {
       content: "";
@@ -88,40 +115,29 @@
 
     }
 
-    .thumbnail {
-      border-radius: 50%;
-
-    }
-
-    .tm-section-title-box:hover  {
-      background:#03A9F4;
-      color:#fff;
-      font-weight:bold;
-      font-size:3em;
-
-    }
-
-    p:not(.text-xs-center):first-letter {
-      color: #76cdd7;
-      font-size: 30px;
-
-    }
+       /* 6 */
 
     .carousel-item .tm-section-title {
       color:gainsboro;
       letter-spacing:5px;
     }
 
+    /* 7 */
+
     h2 + p {
       font-style:italic;
 
     }
+
+   /* 8 */
 
     p:not(.tm-banner-text) {
       line-height: 2em;
       text-indent: 1em;
 
     }
+
+   /* 9 */
 
     .contact-form h2 {
       background:#fff;
@@ -133,7 +149,6 @@
       text-align:center;
 
     }
-
 
 
     section.heading ol a:visited {
@@ -154,6 +169,8 @@
       vertical-align: super;
 
     }
+
+     /* 10 */
 
     .gallery-container .box:nth-child(odd) {
       background-color: whitesmoke;
@@ -180,10 +197,14 @@
 
     }
 
+      /* 11 */
+
     .tm-sidebar li:not(:last-of-type) {
       border-bottom:silver 2px dotted;
 
     }
+
+    /* 12 */
 
     .btn-primary,
      #contact_name,
