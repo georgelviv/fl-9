@@ -104,6 +104,7 @@
     p:not(.text-xs-center):first-letter {
       color: #76cdd7;
       font-size: 30px;
+
     }
 
     .carousel-item .tm-section-title {
